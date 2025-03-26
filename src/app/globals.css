@@ -3,6 +3,10 @@
 @tailwind components;
 @tailwind utilities;
 
+html, body {
+  overflow-x: hidden;
+}
+
 @layer base {
   :root {
     --color-primary-purple: 107 33 168;

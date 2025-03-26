@@ -15,7 +15,7 @@ const testimonials = [
   {
     name: "David O",
     title: "Literary Critic",
-    quote: "The 20-20-20 routine gave me focus! Spending 20 minutes on movement, reflection, and learning every morning has made me sharper and more disciplined.",
+    quote: "The 20-20-20 routine gave me focus! Spending 20 minutes on reflection and learning every morning has made me sharper and more disciplined.",
     image: "/images/author-1.jpg"
   },
   {
@@ -112,7 +112,7 @@ export default function Testimonials() {
           </button>
 
           {/* Testimonial Slider */}
-          <div className="relative w-full h-[300px] flex items-center justify-center">
+          <div className="relative w-full min-h-[400px] flex items-center justify-center">
             <AnimatePresence custom={direction} mode="wait">
               <motion.div
                 key={currentTestimonial}
