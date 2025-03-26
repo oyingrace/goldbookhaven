@@ -9,9 +9,12 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "framer-motion": "^12.6.1",
+    "next": "14.2.24",
     "react": "^18",
     "react-dom": "^18",
-    "next": "14.2.24"
+    "react-icons": "^4.12.0",
+    "react-responsive-carousel": "^3.2.23"
   },
   "devDependencies": {
     "postcss": "^8",
